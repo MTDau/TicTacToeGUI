@@ -1,0 +1,18 @@
+# ninja log v6
+3029	3182	7801969157575630	TicTacTow.exe	d11b4cadcfebb58f
+745	2991	7801969134741456	CMakeFiles/TicTacTow.dir/main.cpp.obj	7851cabedfbde2a6
+742	2904	7801969134713764	CMakeFiles/TicTacTow.dir/TicTacTow_autogen/mocs_compilation.cpp.obj	b30b44d0f51113b5
+749	3029	7801969134780744	CMakeFiles/TicTacTow.dir/tictactow.cpp.obj	743c50505a4922ca
+81	734	7801969133741941	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/mocs_compilation.cpp	abd11d3d58468fdc
+81	734	7801969133741941	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/timestamp	abd11d3d58468fdc
+81	734	7801969133741941	TicTacTow_autogen/timestamp	abd11d3d58468fdc
+81	734	7801969133741941	TicTacTow_autogen/mocs_compilation.cpp	abd11d3d58468fdc
+21	73	7801970171227891	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	ccc2b402b9e3b2be
+73	703	7801970176874300	build.ninja	d71774084e5584b7
+22	76	7801970177978672	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/cmake.verify_globs	ccc2b402b9e3b2be
+97	230	7801970178740723	TicTacTow_autogen/timestamp	abd11d3d58468fdc
+97	230	7801970178740723	TicTacTow_autogen/mocs_compilation.cpp	abd11d3d58468fdc
+97	230	7801970178740723	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/timestamp	abd11d3d58468fdc
+97	230	7801970178740723	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/mocs_compilation.cpp	abd11d3d58468fdc
+230	1869	7801970180082281	CMakeFiles/TicTacTow.dir/tictactow.cpp.obj	743c50505a4922ca
+1869	2066	7801970196463566	TicTacTow.exe	d11b4cadcfebb58f
