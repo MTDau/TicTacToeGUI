@@ -1,0 +1,23 @@
+# ninja log v6
+4	365	7803671698295546	TicTacToe_autogen/timestamp	5a118c2445ceab9a
+4	365	7803671698295546	TicTacToe_autogen/mocs_compilation.cpp	5a118c2445ceab9a
+4	365	7803671698295546	D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/TicTacToe_autogen/timestamp	5a118c2445ceab9a
+4	365	7803671698295546	D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/TicTacToe_autogen/mocs_compilation.cpp	5a118c2445ceab9a
+377	1516	7803671698931297	CMakeFiles/TicTacToe.dir/function.cpp.obj	9d8e9687a93dab95
+368	1840	7803671698835593	CMakeFiles/TicTacToe.dir/TicTacToe_autogen/mocs_compilation.cpp.obj	cd405ae5b96762a
+371	1861	7803671698866318	CMakeFiles/TicTacToe.dir/main.cpp.obj	cdc789d3b971b110
+374	1901	7803671698897241	CMakeFiles/TicTacToe.dir/tictactoe.cpp.obj	e0671519a43d90a4
+1901	2169	7803671714088926	TicTacToe.exe	ce70d6effa896977
+22	123	7803672105834212	TicTacToe_autogen/timestamp	5a118c2445ceab9a
+22	123	7803672105834212	TicTacToe_autogen/mocs_compilation.cpp	5a118c2445ceab9a
+22	123	7803672105834212	D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/TicTacToe_autogen/timestamp	5a118c2445ceab9a
+22	123	7803672105834212	D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/TicTacToe_autogen/mocs_compilation.cpp	5a118c2445ceab9a
+123	1554	7803672106847539	CMakeFiles/TicTacToe.dir/tictactoe.cpp.obj	e0671519a43d90a4
+1554	1692	7803672121162821	TicTacToe.exe	ce70d6effa896977
+21	121	7803672458006438	TicTacToe_autogen/timestamp	5a118c2445ceab9a
+21	121	7803672458006438	TicTacToe_autogen/mocs_compilation.cpp	5a118c2445ceab9a
+21	121	7803672458006438	D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/TicTacToe_autogen/timestamp	5a118c2445ceab9a
+21	121	7803672458006438	D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/TicTacToe_autogen/mocs_compilation.cpp	5a118c2445ceab9a
+124	1209	7803672459143584	CMakeFiles/TicTacToe.dir/function.cpp.obj	9d8e9687a93dab95
+121	1577	7803672459121992	CMakeFiles/TicTacToe.dir/tictactoe.cpp.obj	e0671519a43d90a4
+1577	1707	7803672473599464	TicTacToe.exe	ce70d6effa896977

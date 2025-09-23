@@ -11,13 +11,13 @@ public:
     function();
 
     void reset();
-    bool put(int row, int col, int turn);
+    bool put(int row, int col);
     bool check_win(char& winner); //Is there a winner yet or draw
-    void print_winner(std::vector<std::vector<int>> &);
     int get_turn();
+    char get_player(int row, int col);
 private:
     std::vector<std::vector<char>> board;
-    char winner{'0'};
+    char winner;
     int turn{};
 };
 

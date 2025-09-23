@@ -1,78 +1,56 @@
-#include "tictactow.h"
-#include "./ui_tictactow.h"
+#include "tictactoe.h"
+#include "ui_tictactoe.h"
 
-TicTacTow::TicTacTow(QWidget *parent)
+TicTacToe::TicTacToe(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::TicTacTow)
+    , ui(new Ui::TicTacToe)
     , func(new function)
 {
     ui->setupUi(this);
+    // Map UI buttons to array
+    board_buttons[0][0] = ui->Board00;
+    board_buttons[0][1] = ui->Board01;
+    board_buttons[0][2] = ui->Board02;
+    board_buttons[1][0] = ui->Board10;
+    board_buttons[1][1] = ui->Board11;
+    board_buttons[1][2] = ui->Board12;
+    board_buttons[2][0] = ui->Board20;
+    board_buttons[2][1] = ui->Board21;
+    board_buttons[2][2] = ui->Board22;
+
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            connect(board_buttons[i][j], &QPushButton::clicked,
+                    [=]() { handle_clicks(i, j); });
+        }
+    }
 }
 
-TicTacTow::~TicTacTow()
+TicTacToe::~TicTacToe()
 {
+    delete func;
     delete ui;
 }
 
-void TicTacTow::updateGame()
-{
 
+void TicTacToe::updateGame()
+{
+    for (int i = 0; i < SIZE; i++) {
+        for (int j = 0; j < SIZE; j++) {
+            board_buttons[i][j]->setText(
+                QString(func->get_player(i, j)) // assumes get_player returns char
+                );
+        }
+    }
 }
 
-void TicTacTow::on_Board00_clicked()
-{
-    func->put(0,0,func->get_turn());
+void TicTacToe::handle_clicks(int row, int col) {//What to do after clicks
+    func->put(row, col);
+    updateGame();  // redraw board after every move
 }
 
-void TicTacTow::on_Board01_clicked()
-{
-    func->put(0,1,func->get_turn());
-}
-
-
-void TicTacTow::on_Board02_clicked()
-{
-func->put(0,2,func->get_turn());
-}
-
-void TicTacTow::on_Board10_clicked()
-{
-func->put(1,0,func->get_turn());
-}
-
-
-void TicTacTow::on_Board11_clicked()
-{
-func->put(1,1,func->get_turn());
-}
-
-
-void TicTacTow::on_Board12_clicked()
-{
-func->put(1,2,func->get_turn());
-}
-
-void TicTacTow::on_Board20_clicked()
-{
-func->put(2,0,func->get_turn());
-}
-
-
-void TicTacTow::on_Board21_clicked()
-{
-func->put(2,1,func->get_turn());
-}
-
-
-void TicTacTow::on_Board22_clicked()
-{
-func->put(2,2,func->get_turn());
-}
-
-
-
-void TicTacTow::on_Reset_clicked()
+void TicTacToe::on_Reset_clicked()
 {
     func->reset();
+    updateGame();
 }
-

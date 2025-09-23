@@ -1,48 +1,32 @@
-#ifndef TICTACTOW_H
-#define TICTACTOW_H
+#ifndef TICTACTOE_H
+#define TICTACTOE_H
 
 #include <QMainWindow>
+#include <QPushButton>
 #include "function.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
-class TicTacTow;
+class TicTacToe;
 }
 QT_END_NAMESPACE
 
-class TicTacTow : public QMainWindow
+class TicTacToe : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    TicTacTow(QWidget *parent = nullptr);
-    ~TicTacTow();
+    TicTacToe(QWidget *parent = nullptr);
+    ~TicTacToe();
+
 private slots:
 
-    void on_Board00_clicked();
-
-    void on_Board01_clicked();
-
-    void on_Board02_clicked();
-
-    void on_Board10_clicked();
-
-    void on_Board11_clicked();
-
-    void on_Board12_clicked();
-
-    void on_Board20_clicked();
-
-    void on_Board21_clicked();
-
-    void on_Board22_clicked();
-
-
     void on_Reset_clicked();
-
 private:
-    Ui::TicTacTow *ui;
-    function *func;
+    Ui::TicTacToe *ui;
+    function* func;
     void updateGame();
+    QPushButton* board_buttons[SIZE][SIZE];//Handle all push button
+    void handle_clicks(int row, int col);//What to do after clicks
 };
-#endif // TICTACTOW_H
+#endif // TICTACTOE_H

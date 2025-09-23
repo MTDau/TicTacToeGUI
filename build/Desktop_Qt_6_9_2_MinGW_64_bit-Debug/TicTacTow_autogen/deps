@@ -1,4 +1,5 @@
 TicTacTow_autogen/timestamp: \
+	D:/Qt/6.9.2/mingw_64/include/QtCore/QObject \
 	D:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
 	D:/Qt/6.9.2/mingw_64/include/QtCore/q20functional.h \
 	D:/Qt/6.9.2/mingw_64/include/QtCore/q20iterator.h \
@@ -151,7 +152,10 @@ TicTacTow_autogen/timestamp: \
 	D:/Qt/6.9.2/mingw_64/include/QtGui/qwindowdefs.h \
 	D:/Qt/6.9.2/mingw_64/include/QtGui/qwindowdefs_win.h \
 	D:/Qt/6.9.2/mingw_64/include/QtWidgets/QMainWindow \
+	D:/Qt/6.9.2/mingw_64/include/QtWidgets/QPushButton \
+	D:/Qt/6.9.2/mingw_64/include/QtWidgets/qabstractbutton.h \
 	D:/Qt/6.9.2/mingw_64/include/QtWidgets/qmainwindow.h \
+	D:/Qt/6.9.2/mingw_64/include/QtWidgets/qpushbutton.h \
 	D:/Qt/6.9.2/mingw_64/include/QtWidgets/qsizepolicy.h \
 	D:/Qt/6.9.2/mingw_64/include/QtWidgets/qtabwidget.h \
 	D:/Qt/6.9.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
@@ -245,6 +249,10 @@ TicTacTow_autogen/timestamp: \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
@@ -269,10 +277,30 @@ TicTacTow_autogen/timestamp: \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
+	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginAdditionalTargetInfo.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginConfig.cmake \
 	D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets-relwithdebinfo.cmake \
@@ -593,8 +621,8 @@ TicTacTow_autogen/timestamp: \
 	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/moc_predefs.h \
+	D:/QtProject/TicTacTow/function.cpp \
+	D:/QtProject/TicTacTow/function.h \
 	D:/QtProject/TicTacTow/main.cpp \
-	D:/QtProject/TicTacTow/tictactow.cpp \
-	D:/QtProject/TicTacTow/tictactow.h \
-	D:/QtProject/TicTacTow/tictactow.ui \
+	D:/QtProject/TicTacTow/tictactoe.h \
 	D:/Qt/Tools/CMake_64/bin/cmake.exe

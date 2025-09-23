@@ -5,6 +5,8 @@ cmake_policy(SET CMP0009 NEW)
 # _directory_contents at D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/QtProject/TicTacTow/*.c")
 set(OLD_GLOB
+  "D:/QtProject/TicTacTow/out/build/debug/CMakeFiles/ShowIncludes/main.c"
+  "D:/QtProject/TicTacTow/out/build/x64-Debug/CMakeFiles/ShowIncludes/main.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -42,11 +44,13 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/QtProject/TicTacTow/*.cpp")
 set(OLD_GLOB
   "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/EWIEGA46WW/moc_tictactow.cpp"
-  "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/mocs_compilation.cpp"
   "D:/QtProject/TicTacTow/function.cpp"
   "D:/QtProject/TicTacTow/main.cpp"
-  "D:/QtProject/TicTacTow/tictactow.cpp"
+  "D:/QtProject/TicTacTow/out/build/debug/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "D:/QtProject/TicTacTow/out/build/debug/TicTacTow_autogen/EWIEGA46WW/moc_tictactow.cpp"
+  "D:/QtProject/TicTacTow/out/build/debug/TicTacTow_autogen/mocs_compilation.cpp"
+  "D:/QtProject/TicTacTow/out/build/x64-Debug/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "D:/QtProject/TicTacTow/tictactoe.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -65,10 +69,11 @@ endif()
 # _directory_contents at D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/QtProject/TicTacTow/*.h")
 set(OLD_GLOB
-  "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/include/ui_tictactow.h"
-  "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/moc_predefs.h"
   "D:/QtProject/TicTacTow/function.h"
-  "D:/QtProject/TicTacTow/tictactow.h"
+  "D:/QtProject/TicTacTow/out/build/debug/CMakeFiles/ShowIncludes/foo.h"
+  "D:/QtProject/TicTacTow/out/build/debug/TicTacTow_autogen/include/ui_tictactow.h"
+  "D:/QtProject/TicTacTow/out/build/x64-Debug/CMakeFiles/ShowIncludes/foo.h"
+  "D:/QtProject/TicTacTow/tictactoe.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -169,7 +174,7 @@ endif()
 # _directory_contents at D:/Qt/6.9.2/mingw_64/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/QtProject/TicTacTow/*.ui")
 set(OLD_GLOB
-  "D:/QtProject/TicTacTow/tictactow.ui"
+  "D:/QtProject/TicTacTow/tictactoe.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

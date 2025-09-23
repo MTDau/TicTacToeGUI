@@ -1,0 +1,8 @@
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/TicTacToe.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/edit_cache.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/list_install_components.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/install.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/install/local.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/TicTacToe_autogen_timestamp_deps.dir
+D:/QtProject/TicTacToe/build/Desktop_Qt_6_9_2_MSVC2022_64bit-Debug/CMakeFiles/TicTacToe_autogen.dir
