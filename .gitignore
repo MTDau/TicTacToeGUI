@@ -1,1 +1,36 @@
+# Ignore Visual Studio temporary files
 .vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build folders
+build/
+debug/
+release/
+
+# Ignore Qt Creator build files (if you use it)
+*.pro.user
+*.qbs.user
+*.moc
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backup or temporary files
+*~
+*.tmp
+*.bak
+*.swp
