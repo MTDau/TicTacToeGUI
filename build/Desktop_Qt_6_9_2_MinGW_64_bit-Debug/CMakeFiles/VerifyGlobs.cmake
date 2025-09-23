@@ -44,6 +44,7 @@ set(OLD_GLOB
   "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.cpp"
   "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/EWIEGA46WW/moc_tictactow.cpp"
   "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/mocs_compilation.cpp"
+  "D:/QtProject/TicTacTow/function.cpp"
   "D:/QtProject/TicTacTow/main.cpp"
   "D:/QtProject/TicTacTow/tictactow.cpp"
   )
@@ -66,6 +67,7 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/QtProject/TicTacTow/*.h")
 set(OLD_GLOB
   "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/include/ui_tictactow.h"
   "D:/QtProject/TicTacTow/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/TicTacTow_autogen/moc_predefs.h"
+  "D:/QtProject/TicTacTow/function.h"
   "D:/QtProject/TicTacTow/tictactow.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

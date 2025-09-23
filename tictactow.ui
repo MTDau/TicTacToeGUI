@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>871</width>
+    <width>675</width>
     <height>564</height>
    </rect>
   </property>
@@ -17,9 +17,9 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>40</y>
-      <width>371</width>
+      <x>150</x>
+      <y>30</y>
+      <width>351</width>
       <height>381</height>
      </rect>
     </property>
@@ -34,26 +34,7 @@
     <property name="alignment">
      <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>130</x>
-       <y>30</y>
-       <width>151</width>
-       <height>41</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <pointsize>16</pointsize>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Gaming</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="Board01">
+    <widget class="QPushButton" name="Board00">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -118,7 +99,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="Board02">
+    <widget class="QPushButton" name="Board01">
      <property name="geometry">
       <rect>
        <x>140</x>
@@ -131,7 +112,7 @@
       <string/>
      </property>
     </widget>
-    <widget class="QPushButton" name="Board03">
+    <widget class="QPushButton" name="Board02">
      <property name="geometry">
       <rect>
        <x>220</x>
@@ -170,6 +151,28 @@
       <string/>
      </property>
     </widget>
+    <zorder>Board00</zorder>
+    <zorder>Board10</zorder>
+    <zorder>Board20</zorder>
+    <zorder>Board11</zorder>
+    <zorder>Board01</zorder>
+    <zorder>Board02</zorder>
+    <zorder>Board22</zorder>
+    <zorder>Board21</zorder>
+    <zorder>Board12</zorder>
+   </widget>
+   <widget class="QPushButton" name="Reset">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>440</y>
+      <width>80</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Reset </string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -177,7 +180,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>871</width>
+     <width>675</width>
      <height>21</height>
     </rect>
    </property>
