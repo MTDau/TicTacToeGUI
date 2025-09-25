@@ -1,6 +1,7 @@
 #include "tictactoe.h"
 #include "ui_tictactoe.h"
 #include <QString>
+#include <QVBoxLayout>
 
 TicTacToe::TicTacToe(QWidget* parent)
 	: QMainWindow(parent)

@@ -17,7 +17,6 @@ public:
 	int get_turn();
 	char get_player(int row, int col);
 	bool is_game_over() const;
-	void set_game_over(bool over);
 	char get_winner();
 private:
 	std::vector<std::vector<char>> board;

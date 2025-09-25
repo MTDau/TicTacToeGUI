@@ -15,14 +15,29 @@
    <string>TicTacToe</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LayoutDirection::LeftToRight</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>40</y>
-      <width>341</width>
-      <height>421</height>
+      <x>210</x>
+      <y>50</y>
+      <width>351</width>
+      <height>474</height>
      </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>351</width>
+      <height>474</height>
+     </size>
     </property>
     <property name="font">
      <font>

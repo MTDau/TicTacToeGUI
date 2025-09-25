@@ -15,9 +15,6 @@ char function::get_winner() {
 bool function::is_game_over() const {
 	return game_over;
 }
-void function::set_game_over(bool over) {
-	game_over = over;
-}
 void function::reset() {
 	for (int i = 0; i < SIZE; i++) {
 		for (int j = 0; j < SIZE; j++) {
