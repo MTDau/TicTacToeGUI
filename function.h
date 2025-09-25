@@ -3,22 +3,27 @@
 
 #include <QObject>
 #include <vector>
-inline constexpr int SIZE{3};
+#include <memory>
+inline constexpr int SIZE{ 3 };
 
 class function
 {
 public:
-    function();
+	function();
 
-    void reset();
-    bool put(int row, int col);
-    bool check_win(char& winner); //Is there a winner yet or draw
-    int get_turn();
-    char get_player(int row, int col);
+	void reset();
+	bool put(int row, int col);
+	bool check_win(char& winner); //Is there a winner yet or draw
+	int get_turn();
+	char get_player(int row, int col);
+	bool is_game_over() const;
+	void set_game_over(bool over);
+	char get_winner();
 private:
-    std::vector<std::vector<char>> board;
-    char winner;
-    int turn{};
+	std::vector<std::vector<char>> board;
+	char winner;
+	int turn;
+	bool game_over;
 };
 
 #endif // FUNCTION_H

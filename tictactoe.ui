@@ -155,7 +155,7 @@
     <widget class="QPushButton" name="Reset">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>137</x>
        <y>370</y>
        <width>80</width>
        <height>24</height>
@@ -165,20 +165,17 @@
       <string>Reset </string>
      </property>
     </widget>
-    <widget class="QFrame" name="show_winner">
+    <widget class="QLabel" name="show_winner">
      <property name="geometry">
       <rect>
-       <x>109</x>
+       <x>100</x>
        <y>320</y>
-       <width>131</width>
-       <height>41</height>
+       <width>161</width>
+       <height>31</height>
       </rect>
      </property>
-     <property name="frameShape">
-      <enum>QFrame::Shape::NoFrame</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Shadow::Plain</enum>
+     <property name="text">
+      <string/>
      </property>
     </widget>
     <zorder>Board00</zorder>

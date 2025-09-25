@@ -1,12 +1,22 @@
 #include "function.h"
 
-function::function() : winner{ '0' }, turn{ 0 }, board{ SIZE, std::vector<char>(SIZE, ' ') } {
+function::function() : winner{ ' ' }, turn{ 0 }, game_over{ false }, board{ SIZE, std::vector<char>(SIZE, ' ') }
+{
 }
 int function::get_turn() {
 	return turn;
 }
 char function::get_player(int row, int col) {
 	return board[row][col];
+}
+char function::get_winner() {
+	return winner;
+}
+bool function::is_game_over() const {
+	return game_over;
+}
+void function::set_game_over(bool over) {
+	game_over = over;
 }
 void function::reset() {
 	for (int i = 0; i < SIZE; i++) {
@@ -15,17 +25,24 @@ void function::reset() {
 		}
 	}
 	turn = 0;
-	winner = '0';
+	winner = ' ';
+	game_over = false;
 }
 bool function::put(int row, int col) {
 	//Not empty cell
-	if (board[row][col] != ' ')
-	{
+	if (board[row][col] != ' '||game_over)
 		return false;
-	}
+
 	char player = (turn % 2 == 0) ? 'X' : 'O';
 	board[row][col] = player;
 	turn++;
+	if (check_win(winner)) {  // automatically update winner and game_over
+		game_over = true;
+	}
+	else if (turn >= SIZE * SIZE) { // draw
+		winner = ' ';
+		game_over = true;
+	}
 	return true;
 }
 bool function::check_win(char& winner)
@@ -74,7 +91,7 @@ bool function::check_win(char& winner)
 		}
 	}
 	// Check diagonal
-	if (board[0][0] != 0)
+	if (board[0][0] != ' ')
 	{
 		auto x = board[0][0];
 		bool win{ true };
@@ -93,7 +110,7 @@ bool function::check_win(char& winner)
 		}
 	}
 	//Check the other diagonal
-	if (board[0][SIZE - 1] != 0)
+	if (board[0][SIZE - 1] != ' ')
 	{
 		auto x = board[0][SIZE - 1];
 		bool win{ true };
